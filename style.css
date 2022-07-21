@@ -4,7 +4,7 @@
 /* base style */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: antiquewhite;
+    background-color: lightblue;
 }
 
 /*banner descripton & image */
@@ -123,14 +123,16 @@ body {
 .match {
     border-radius: 10px, 10px;
     box-shadow: 1px solid gray;
-    width: 50%;
+    width: 312px;
+    height: 242px;
     padding: 5px;
 }
 
-.all-match {
+.matches {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    margin-left: 2%;
 
 }
 
