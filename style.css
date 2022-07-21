@@ -56,7 +56,7 @@ body {
 .box-container {
     margin-top: 25px;
     margin-bottom: 50px;
-    width: 500px;
+    width: 300px;
     height: 300px;
     background-color: blueviolet;
     border: 5px solid blueviolet;
@@ -110,8 +110,8 @@ body {
 /*match descrtiption */
 
 .match .match-banner img {
-    width: 312px;
-    height: 175px;
+    width: 300px;
+    height: 200px;
 }
 
 .icon {
@@ -121,19 +121,18 @@ body {
 }
 
 .match {
-    border-radius: 312px, 362px;
+    border-radius: 10px, 10px;
     box-shadow: 1px solid gray;
     width: 50%;
     padding: 5px;
 }
 
-.matches {
+.all-match {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
 
 }
-
 
 .main2 {
     display: flex;
@@ -157,24 +156,28 @@ footer {
 }
 
 .footer-content h2 {
-    text-transform: capitalize;
-    line-height: 3rem;
-    font-weight: bold;
-    font-size: 20px;
     color: white;
-    text-align: center;
+    width: 95px;
+    height: 60px;
+    left: 753px;
+    top: 1594px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
 }
 
 .socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin: 3rem 3rem 3rem 3rem;
-    font-size: 1.1rem;
-    text-decoration: none;
     color: white;
-    justify-content: space-around;
-    padding: 8px;
+    left: 21%;
+    right: 21%;
+    top: 91%;
+    bottom: 6%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    flex-direction: row;
 }
 
 
@@ -287,15 +290,15 @@ footer {
     }
 
     .socials {
-        list-style: none;
-        flex-direction: column;
-        align-items: center;
-        margin: 1rem 0 3rem 0;
-        font-size: 1.1rem;
-        text-decoration: none;
         color: white;
-        justify-content: space-around;
-        padding: 8px;
+        left: 3.73%;
+        right: 3.73%;
+        top: 91.44%;
+        bottom: 0.2%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 50px;
     }
 }
 
@@ -371,7 +374,6 @@ footer {
         margin-left: 10%;
         flex-direction: row;
     }
-
 }
 
 .box1 {
@@ -414,6 +416,6 @@ footer {
     border-radius: 10px;
 }
 
-.matches {
+.all-match {
     grid-template-columns: repeat(2, 1fr);
 }

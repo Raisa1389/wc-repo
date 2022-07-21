@@ -1,0 +1,176 @@
+/*Upcoming matches main website starts here*/
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* base style */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: antiquewhite;
+}
+
+/*banner descripton & image */
+.main1 {
+    width: 80%;
+    height: 80vh;
+    margin-left: 10%;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 2px 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-descrption {
+    font-size: 30px;
+    text-align: left;
+    width: 50%;
+}
+
+.banner-image {
+    margin: auto;
+}
+
+.title1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.banner-button {
+    background-color: red;
+    padding: 15px 20px;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    font-size: 25px;
+    margin: 10px;
+}
+
+/*box descrtiption */
+.box-container {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 300px;
+    background-color: blueviolet;
+    border: 5px solid blueviolet;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.box1 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 150px;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-top: 4%;
+    font-size: medium;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box2 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 150px;
+    height: 50px;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding: 5%;
+    font-size: medium;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 150px;
+    height: 50px;
+    margin-left: 5%;
+    padding: 5%;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/*match descrtiption */
+.match .match-banner img {
+    width: 60px;
+    height: 40px;
+}
+
+.match {
+    border-radius: 10px 10px;
+    box-shadow: 1px solid gray;
+    width: 312px;
+    height: 242px;
+    padding: 5px;
+}
+
+.all-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+}
+
+.main2 {
+    display: flex;
+}
+
+/*footer */
+/*footer */
+footer {
+    box-sizing: border-box;
+    height: auto;
+    width: 100vw;
+    background-color: black;
+    margin-top: 10%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2 {
+    color: white;
+    width: 95px;
+    height: 60px;
+    left: 753px;
+    top: 1594px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.socials {
+    color: white;
+    left: 21%;
+    right: 21%;
+    top: 91%;
+    bottom: 6%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    flex-direction: row;
+}
